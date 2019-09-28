@@ -5,6 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.OutputStream;
 import java.util.stream.*;
 
@@ -23,9 +24,8 @@ public class App {
         System.out.println("abc");
         System.out.println("abc");
 
-        try {
-            OutputStream os = new FileOutputStream("/file");
-        } catch (FileNotFoundException e) {
+        try (OutputStream os = new FileOutputStream("/file")) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
