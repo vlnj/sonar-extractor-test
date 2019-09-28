@@ -4,7 +4,7 @@ public class Project {
 
     public int id;
 
-    public String name;
+    public String projectName;
 
     public String extId;
 
@@ -16,12 +16,12 @@ public class Project {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getProjectName() {
+        return projectName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setProjectName(String projectName) {
+        this.projectName = projectName;
     }
 
     public String getExtId() {

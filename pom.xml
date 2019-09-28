@@ -17,7 +17,7 @@
             </plugin>
         </plugins>
     </build>
-    <name>SpringExample</name>
+    <projectName>SpringExample</projectName>
   <url>http://maven.apache.org</url>
   
   <dependencies>
