@@ -5,6 +5,7 @@ package com.mkyong.common;
  */
 public class HelloWorld {
     private static String name = "Lasitha";
+    public String message;
 
     public void printHello() {
         System.out.println("Hello ! " + name);
@@ -17,4 +18,10 @@ public class HelloWorld {
     private int getAge(){
         return 0;
     }
+
+    public String getMessage(){
+        return "";
+    }
+
+
 }
