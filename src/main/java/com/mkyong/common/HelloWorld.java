@@ -50,4 +50,9 @@ public class HelloWorld {
         return "";
     }
 
+    public String getMessage8(){
+        return "";
+    }
+
+
 }
