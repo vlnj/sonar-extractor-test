@@ -7,6 +7,9 @@ public class HelloWorld {
     private static String name = "Lasitha";
     public String message;
 
+    public String message2;
+
+
     public void printHello() {
         System.out.println("Hello ! " + name);
     }
@@ -20,6 +23,10 @@ public class HelloWorld {
     }
 
     public String getMessage(){
+        return "";
+    }
+
+    public String getMessage2(){
         return "";
     }
 
