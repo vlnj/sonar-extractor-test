@@ -54,5 +54,10 @@ public class HelloWorld {
         return "";
     }
 
+    public String getMessage9(){
+        return "";
+    }
+
+
 
 }
