@@ -38,6 +38,11 @@ public class HelloWorld {
         return "";
     }
 
+    public String getMessage5(){
+        return "";
+    }
+
+
 
 
 
