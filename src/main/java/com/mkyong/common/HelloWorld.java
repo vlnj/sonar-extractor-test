@@ -46,9 +46,8 @@ public class HelloWorld {
         return "";
     }
 
-
-
-
-
+    public String getMessage7(){
+        return "";
+    }
 
 }
