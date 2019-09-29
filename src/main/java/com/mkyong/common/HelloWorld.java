@@ -42,6 +42,11 @@ public class HelloWorld {
         return "";
     }
 
+    public String getMessage6(){
+        return "";
+    }
+
+
 
 
 
