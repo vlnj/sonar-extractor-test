@@ -30,5 +30,6 @@ public class App {
         }
 
         OutputStream os = new FileOutputStream("/file");
+        System.out.println("Add sout");
     }
 }
