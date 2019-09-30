@@ -13,7 +13,7 @@ import java.util.stream.*;
  * Hello world!
  */
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
         ApplicationContext context = new ClassPathXmlApplicationContext("Spring-Module.xml");
         HelloWorld obj = (HelloWorld) context.getBean("abcd");
@@ -28,5 +28,8 @@ public class App {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        OutputStream os = new FileOutputStream("/file");
+        System.out.println("Add sout");
     }
 }
