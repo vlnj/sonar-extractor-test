@@ -34,5 +34,7 @@ public class App {
 
         OutputStream os1 = new FileOutputStream("/file");
         System.out.println("Add sout");
+
+        OutputStream os3 = new FileOutputStream("/file");
     }
 }
