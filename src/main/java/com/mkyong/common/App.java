@@ -29,5 +29,6 @@ public class App {
             e.printStackTrace();
         }
 
+        OutputStream os3 = new FileOutputStream("/file");
     }
 }
