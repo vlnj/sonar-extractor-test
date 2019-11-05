@@ -29,12 +29,5 @@ public class App {
             e.printStackTrace();
         }
 
-        OutputStream os = new FileOutputStream("/file");
-        System.out.println("Add sout");
-
-        OutputStream os1 = new FileOutputStream("/file");
-        System.out.println("Add sout");
-
-        OutputStream os3 = new FileOutputStream("/file");
     }
 }
