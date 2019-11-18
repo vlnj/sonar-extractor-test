@@ -32,4 +32,6 @@ public class App {
         OutputStream os3 = new FileOutputStream("/file");
 
     }
+
+    private void a(){}
 }
