@@ -30,5 +30,7 @@ public class App {
         }
 
         OutputStream os3 = new FileOutputStream("/file");
+
+        OutputStream os4 = new FileOutputStream("/file");
     }
 }
